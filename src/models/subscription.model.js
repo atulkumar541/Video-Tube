@@ -17,3 +17,10 @@ const subscriptionSchema = new Schema(
 );
 
 export const Subscription = mongoose.model("Subscription", subscriptionSchema);
+
+/*
+find how many subscriber in this channel
+-> to find this we need to find channel name
+
+
+*/
